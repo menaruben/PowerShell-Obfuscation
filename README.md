@@ -11,6 +11,7 @@ Get-Credential | Export-CliXml -Path ".\CreDentIals.xMl"
 ```
 
 If you run this code you will get either get a UI prompt (PowerShell 5.1) or a terminal prompt (PowerShell 7) to enter user credentials. Here is a screenshot of the UI prompt:
+
 ![ui prompt](./imgs/Get-Credential_uiprompt.png)
 
 In this prompt you can enter PowerShell code into the password field. We will add the following code for our example:
